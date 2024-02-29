@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact-us</title>
+  <link rel="stylesheet" href="contact-us.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="preloader"></div>
+  <div class="container">
+    <div>
+      <h1 class="title">Contact Us</h1>
+    </div>
+    <div>
+      <div class="name">
+        <label for="name" class="label-name">Name</label>
+        <input type="text" id="name" name="name" class="input-name">
+      </div>
+      <div class="email">
+        <label for="email" class="label-email">Email</label>
+        <input type="email" id="email" name="email" class="input-email">
+      </div>
+      <div class="message">
+        <label for="message" class="label-message">Message</label>
+        <textarea id="message" name="message" class="input-message"></textarea>
+      </div>
+      <a href="index.html" class="button-submit">Submit</a>
+      <hr>
+      <div class="footer">
+        <div class="center">
+          <a class="mail" href="mailto:ctae.alumnus@gmail.com">ctae.alumnus@gmail.com</a>
+          <br>
+          <p class="address">College of Technology and Engineering, <br> University Road, Udaipur, 313001</p>
+          <span class="inline-flex">
+            <a class="facebook" href="https://www.facebook.com">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a class="x" href="https://www.x.com">
+              <i class="ri-twitter-x-fill"></i>
+            </a>
+            <a class="instagram" href="https://www.instagram.com">
+              <i class="ri-instagram-line"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+        loader.style.display = "none";
+    })
+</script>
+</body>
+
+</html>

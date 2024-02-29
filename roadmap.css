@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(/images/bgroadmap.jpg);
+    background-size: cover;
+}
+
+.title {
+    font-family: josefin sans;
+    font-size: 60px;
+    text-align: center;
+    justify-content: center;
+    padding: 100px;
+    color: whitesmoke;
+
+}
+
+.box {
+
+    width: 1000px;
+    margin-left: 520px;
+    display: flex;
+}
+
+a {
+    display: block;
+    width: 300px;
+    height: 32px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px solid;
+    background-color: rgba(20, 20, 20, 255);
+    transition: 0.5s;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+a:hover {
+    background-color: #1590b4;
+    letter-spacing: 2px;
+}
+
+img {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    height: 150px;
+}
+
+.button-home {
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    position: absolute;
+    left: 290px;
+    top: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 0px solid;
+    background-color: rgba(20, 20, 20, 255);
+    color: whitesmoke;
+}
+
+
+#preloader {
+    background: black;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
